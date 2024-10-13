@@ -1,9 +1,7 @@
-name: Update Webpage Content
+name: Update Test Source
 
 # 触发条件：每小时执行一次
 on:
-  schedule:
-    - cron: '0 1 * * *'  # 每小时的第 0 分钟触发
   workflow_dispatch:      # 手动触发
 
 jobs:
@@ -24,9 +22,9 @@ jobs:
       # 步骤3：将网页内容写入指定文件
       - name: Update file with webpage content
         run: |
-          cp webpage_content.txt cu.txt  # 将抓取的内容复制到目标文件
+          cp webpage_content.txt test.txt  # 将抓取的内容复制到目标文件
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood"
-          git add cu.txt
+          git add test.txt
           git commit -m "Auto update file with webpage content"
           git push
