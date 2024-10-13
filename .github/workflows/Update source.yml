@@ -1,0 +1,31 @@
+name: Update Webpage Content
+
+# 触发条件：每小时执行一次
+on:
+  schedule:
+    - cron: '60'  # 每小时的第 0 分钟触发
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest  # 在 Ubuntu 最新版本上运行
+
+    steps:
+      # 步骤1：拉取仓库代码
+      - name: Checkout IPTVindex
+        uses: actions/checkout@v2
+
+      # 步骤2：抓取网页内容并写入文件
+      - name: Fetch webpage content
+        run: |
+          curl -o webpage_content.txt https://taoiptv.com/subs/51025.txt?token=839f31c3a98925e9  # 替换为你要抓取的网页
+          echo "Downloaded webpage content"
+          
+      # 步骤3：将网页内容写入指定文件
+      - name: Update file with webpage content
+        run: |
+          cp webpage_content.txt IPTVindex/cu.txt  # 将抓取的内容复制到目标文件
+          git config --global user.email "137753051@qq.com"
+          git config --global user.name "Sherwood"
+          git add path/to/your/file.md
+          git commit -m "Auto update file with webpage content"
+          git push
