@@ -15,22 +15,22 @@ jobs:
 
       - name: Fetch content from CU URL
         run: |
-          curl -o first_webpage_content.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
+          curl -o cu_source.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
           cp cu_source.txt cu.txt
 
       - name: Fetch content from itv URL
         run: |
-          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/itv.txt?token=3y9t1n0qw0f7byn8
+          curl -o itv_source.txt http://114.55.117.163:8081/iptv/itv.txt?token=3y9t1n0qw0f7byn8
           cp itv_source.txt itv.txt
           
       - name: Fetch content from gitv URL
         run: |
-          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/gitv.txt?token=3y9t1n0qw0f7byn8
+          curl -o gitv_source.txt http://114.55.117.163:8081/iptv/gitv.txt?token=3y9t1n0qw0f7byn8
           cp gitv_source.txt gitv.txt
           
       - name: Fetch content from jsyd URL
         run: |
-          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/jsyd.txt?token=3y9t1n0qw0f7byn8
+          curl -o jsyd_source.txt http://114.55.117.163:8081/iptv/jsyd.txt?token=3y9t1n0qw0f7byn8
           cp jsyd_source.txt jsyd.txt
 
       - name: Commit and push changes
