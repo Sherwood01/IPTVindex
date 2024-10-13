@@ -3,7 +3,7 @@ name: Update Webpage Content
 # 触发条件：每小时执行一次
 on:
   schedule:
-    - cron: '0'  # 每小时的第 0 分钟触发
+    - cron: '1'  # 每小时的第 0 分钟触发
 
 jobs:
   update-content:
