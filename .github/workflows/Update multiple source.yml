@@ -1,0 +1,42 @@
+name: Update Multiple Source
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # 每12小时运行一次
+  workflow_dispatch:  # 添加手动触发
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch content from CU URL
+        run: |
+          curl -o first_webpage_content.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
+          cp cu.txt cu.txt
+
+      - name: Fetch content from itv URL
+        run: |
+          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/itv.txt?token=3y9t1n0qw0f7byn8
+          cp itv.txt itv.txt
+          
+      - name: Fetch content from gitv URL
+        run: |
+          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/gitv.txt?token=3y9t1n0qw0f7byn8
+          cp gitv.txt gitv.txt
+          
+      - name: Fetch content from jsyd URL
+        run: |
+          curl -o second_webpage_content.txt http://114.55.117.163:8081/iptv/jsyd.txt?token=3y9t1n0qw0f7byn8
+          cp jsyd.txt jsyd.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "137753051@qq.com"
+          git config --global user.name "Sherwood"
+          git add cu.txt itv.txt gitv.txt jsyd.txt
+          git commit -m "Auto update multiple files with webpage contents"
+          git push
