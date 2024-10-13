@@ -4,6 +4,7 @@ name: Update Webpage Content
 on:
   schedule:
     - cron: '0 1 * * *'  # 每小时的第 0 分钟触发
+    workflow_dispatch:      # 手动触发
 
 jobs:
   update-content:
