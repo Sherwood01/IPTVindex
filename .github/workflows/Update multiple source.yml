@@ -36,7 +36,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.email "137753051@qq.com"
-          git config --global user.name "Sherwood"
+          git config --global user.name "Sherwood1"
           git add cu.txt itv.txt gitv.txt jsyd.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
