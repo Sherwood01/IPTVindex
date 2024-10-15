@@ -1,4 +1,4 @@
-央视频道,#genre#
+央视频道,#genre#111
 CCTV4K,https://vip.taoiptv.cn/source/ysp.php?id=cctv4k.m3u8&sign=ld46pu
 CCTV8K,https://vip.taoiptv.cn/source/ysp.php?id=cctv8k.m3u8&sign=ld46pu
 CCTV1,https://vip.taoiptv.cn/source/itv.php?id=CCTV1.m3u8&sign=ld46pu
