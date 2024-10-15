@@ -15,23 +15,23 @@ jobs:
 
       - name: Fetch content from cu URL
         run: |
-          curl -o cu_source.txt "https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8"
-          cp cu_source.txt cu.txt
+          curl -o cu.txt "https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8"
+          cp cu.txt
 
       - name: Fetch content from itv URL
         run: |
-          curl -o itv_source.txt "https://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8"
-          cp itv_source.txt itv.txt
+          curl -o itv.txt "https://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8"
+          cp itv.txt
           
       - name: Fetch content from gitv URL
         run: |
-          curl -o gitv_source.txt "https://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8"
-          cp gitv_source.txt gitv.txt
+          curl -o gitv.txt "https://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8"
+          cp gitv.txt
           
       - name: Fetch content from jsyd URL
         run: |
-          curl -o jsyd_source.txt "https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8"
-          cp jsyd_source.txt jsyd.txt
+          curl -o jsyd.txt "https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8"
+          cp jsyd.txt
 
       - name: Commit and push changes
         run: |
