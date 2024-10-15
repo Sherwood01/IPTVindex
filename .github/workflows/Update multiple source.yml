@@ -15,28 +15,26 @@ jobs:
 
       - name: Fetch content from cu URL
         run: |
-          curl -o cu.txt "https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8"
-          cp cu.txt
-
+          curl -o cu_source.txt "https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8"
+          cp cu_source.txt cu.txt
       - name: Fetch content from itv URL
         run: |
-          curl -o itv.txt "https://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8"
-          cp itv.txt
+          curl -o itv_source.txt "https://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8"
+          cp itv_source.txt itv.txt
           
       - name: Fetch content from gitv URL
         run: |
-          curl -o gitv.txt "https://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8"
-          cp gitv.txt
+          curl -o gitv_source.txt "https://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8"
+          cp gitv_source.txt gitv.txt
           
       - name: Fetch content from jsyd URL
         run: |
-          curl -o jsyd.txt "https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8"
-          cp jsyd.txt
-
+          curl -o jsyd_source.txt "https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8"
+          cp jsyd_source.txt jsyd.txt
       - name: Commit and push changes
         run: |
           git config user.email "137753051@qq.com"
           git config user.name "Sherwood1"
-          git add .  cu.txt itv.txt gitv.txt jsyd.txt
+          git add cu.txt itv.txt gitv.txt jsyd.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
