@@ -32,11 +32,16 @@ jobs:
         run: |
           curl -o jsyd_source.txt https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
           cp jsyd_source.txt jsyd.txt
-
+          
+      - name: Update timestamp in update_time.txt
+        run: |
+          current_time=$(date "+%Y-%m-%d %H:%M:%S")
+          echo "Last update: $current_time" > update_time.txt  # 写入最新时间到文件
+          
       - name: Commit and push changes
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt gitv.txt jsyd.txt
+          git add cu.txt itv.txt gitv.txt jsyd.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
