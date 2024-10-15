@@ -2,8 +2,8 @@ name: Update Multiple Source
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Ã¿12Ğ¡Ê±ÔËĞĞÒ»´Î
-  workflow_dispatch:  # Ìí¼ÓÊÖ¶¯´¥·¢
+    - cron: '0 * * * *'  # æ¯å°æ—¶è¿è¡Œä¸€æ¬¡
+  workflow_dispatch:  # æ·»åŠ æ‰‹åŠ¨è§¦å‘
 
 jobs:
   update-content:
