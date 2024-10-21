@@ -1,6 +1,4 @@
 央视频道,#genre#
-CCTV4K,https://vip.taoiptv.cn/source/ysp.php?id=cctv4k.m3u8&sign=mzxn4l
-CCTV8K,https://vip.taoiptv.cn/source/ysp.php?id=cctv8k.m3u8&sign=mzxn4l
 CCTV1,https://vip.taoiptv.cn/source/itv.php?id=CCTV1.m3u8&sign=mzxn4l
 CCTV1,https://vip.taoiptv.cn/source/itv.php?id=CCTV150FPS.m3u8&sign=mzxn4l
 CCTV1,https://vip.taoiptv.cn/source/itv.php?id=CCTV1HEVC.m3u8&sign=mzxn4l
@@ -18,7 +16,6 @@ CCTV5+,https://vip.taoiptv.cn/source/itv.php?id=CCTV5pHEVC.m3u8&sign=mzxn4l
 CCTV6,https://vip.taoiptv.cn/source/itv.php?id=CCTV6.m3u8&sign=mzxn4l
 CCTV6,https://vip.taoiptv.cn/source/itv.php?id=CCTV650FPS.m3u8&sign=mzxn4l
 CCTV6,https://vip.taoiptv.cn/source/itv.php?id=CCTV6HEVC.m3u8&sign=mzxn4l
-CCTV6,http://114.55.117.163:8085/ysp/cctv6?id=.m3u8&sign=mzxn4l
 CCTV7,https://vip.taoiptv.cn/source/itv.php?id=CCTV7.m3u8&sign=mzxn4l
 CCTV7,https://vip.taoiptv.cn/source/itv.php?id=CCTV750FPS.m3u8&sign=mzxn4l
 CCTV7,https://vip.taoiptv.cn/source/itv.php?id=CCTV7HEVC.m3u8&sign=mzxn4l
@@ -45,19 +42,6 @@ CCTV16,https://vip.taoiptv.cn/source/itv.php?id=CCTV16.m3u8&sign=mzxn4l
 CCTV16(4K),https://vip.taoiptv.cn/source/itv.php?id=CCTV164KHEVC.m3u8&sign=mzxn4l
 CCTV17,https://vip.taoiptv.cn/source/itv.php?id=CCTV17.m3u8&sign=mzxn4l
 CCTV17,https://vip.taoiptv.cn/source/itv.php?id=CCTV17HEVC.m3u8&sign=mzxn4l
-CCTV兵器科技,https://vip.taoiptv.cn/source/ysp.php?id=cctv-bingqikeji.m3u8&sign=mzxn4l
-CCTV怀旧剧场,https://vip.taoiptv.cn/source/ysp.php?id=cctv-huaijiujuchang.m3u8&sign=mzxn4l
-CCTV第一剧场,https://vip.taoiptv.cn/source/ysp.php?id=cctv-diyijuchang.m3u8&sign=mzxn4l
-CCTV风云剧场,https://vip.taoiptv.cn/source/ysp.php?id=cctv-fengyunjuchang.m3u8&sign=mzxn4l
-CCTV风云音乐,https://vip.taoiptv.cn/source/ysp.php?id=cctv-fengyunyinyue.m3u8&sign=mzxn4l
-CCTV风云足球,https://vip.taoiptv.cn/source/ysp.php?id=cctv-fengyunzuqiu.m3u8&sign=mzxn4l
-CCTV央视台球,https://vip.taoiptv.cn/source/ysp.php?id=cctv-yangshitaiqiu.m3u8&sign=mzxn4l
-CCTV高网频道,https://vip.taoiptv.cn/source/ysp.php?id=cctv-gaoerfuwangqiu.m3u8&sign=mzxn4l
-CCTV世界地理,https://vip.taoiptv.cn/source/ysp.php?id=cctv-shijiedili.m3u8&sign=mzxn4l
-CCTV女性时尚,https://vip.taoiptv.cn/source/ysp.php?id=cctv-nvxingshishang.m3u8&sign=mzxn4l
-CCTV卫生健康,https://vip.taoiptv.cn/source/ysp.php?id=cctv-weishengjiankang.m3u8&sign=mzxn4l
-CCTV文化精品,https://vip.taoiptv.cn/source/ysp.php?id=cctv-wenhuajingpin.m3u8&sign=mzxn4l
-CCTV电视指南,https://vip.taoiptv.cn/source/ysp.php?id=cctv-dianshizhinan.m3u8&sign=mzxn4l
 CGTN记录,https://vip.taoiptv.cn/source/itv.php?id=CGTN记录.m3u8&sign=mzxn4l
 中国教育1,https://vip.taoiptv.cn/source/itv.php?id=中国教育电视台1.m3u8&sign=mzxn4l
 中国教育4,https://vip.taoiptv.cn/source/itv.php?id=中国教育电视台4.m3u8&sign=mzxn4l
