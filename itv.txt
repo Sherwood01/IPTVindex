@@ -121,9 +121,9 @@ CGTN记录,https://vip.taoiptv.cn/source/itv.php?id=CGTN记录.m3u8&sign=40u1wu
 上海新闻综合,https://vip.taoiptv.cn/source/itv.php?id=上海新闻综合.m3u8&sign=40u1wu
 
 港澳频道,#genre#
-凤凰中文,http://58.144.154.93/qctv.fengshows.cn/live/0701pcc72.m3u8?sign=40u1wu
-凤凰资讯,http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8?sign=40u1wu
-凤凰香港,http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8?sign=40u1wu
+凤凰资讯,https://vip.taoiptv.cn/source/fhx.php?id=fhzx.flv&sign=40u1wu
+凤凰中文,https://vip.taoiptv.cn/source/fhx.php?id=fhzx.flv&sign=40u1wu
+凤凰香港,https://vip.taoiptv.cn/source/fhx.php?id=fhzx.flv&sign=40u1wu
 
 NiTV频道,#genre#
 NewTV精品综合,https://vip.taoiptv.cn/source/itv.php?id=NewTV精品综合.m3u8&sign=40u1wu
