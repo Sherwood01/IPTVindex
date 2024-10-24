@@ -39,19 +39,19 @@ jobs:
           
       - name: Fetch content from cqyx URL
         run: |
-          curl -o jsyd_source.txt https://vip.taoiptv.cn/source/cqyx.txt?token=3y9t1n0qw0f7byn8
+          curl -o cqyx_source.txt https://vip.taoiptv.cn/source/cqyx.txt?token=3y9t1n0qw0f7byn8
           touch cqyx.txt
           cp cqyx_source.txt cqyx.txt
 
       - name: Fetch content from gzyx URL
         run: |
-          curl -o jsyd_source.txt https://vip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
+          curl -o gzyx_source.txt https://vip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
           touch gzyx.txt
           cp gzyx_source.txt gzyx.txt
 
       - name: Fetch content from zhy URL
         run: |
-          curl -o jsyd_source.txt https://vip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
+          curl -o zhy_source.txt https://vip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
           touch zhy.txt
           cp zhy_source.txt zhy.txt
           
