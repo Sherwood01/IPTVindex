@@ -15,43 +15,43 @@ jobs:
 
       - name: Fetch content from cu URL
         run: |
-          curl -o cu_source.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
+          curl -o cu_source.txt http://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
           touch cu.txt
           cp cu_source.txt cu.txt
 
       - name: Fetch content from itv URL
         run: |
-          curl -o itv_source.txt https://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8
+          curl -o itv_source.txt http://vip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8
           touch itv.txt
           cp itv_source.txt itv.txt
           
       - name: Fetch content from gitv URL
         run: |
-          curl -o gitv_source.txt https://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8
+          curl -o gitv_source.txt http://vip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8
           touch gitv.txt
           cp gitv_source.txt gitv.txt
           
       - name: Fetch content from jsyd URL
         run: |
-          curl -o jsyd_source.txt https://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
+          curl -o jsyd_source.txt http://vip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
           touch jsyd.txt
           cp jsyd_source.txt jsyd.txt
           
       - name: Fetch content from cqyx URL
         run: |
-          curl -o cqyx_source.txt https://vip.taoiptv.cn/source/cqyx.txt?token=3y9t1n0qw0f7byn8
+          curl -o cqyx_source.txt http://vip.taoiptv.cn/source/cqyx.txt?token=3y9t1n0qw0f7byn8
           touch cqyx.txt
           cp cqyx_source.txt cqyx.txt
 
       - name: Fetch content from gzyx URL
         run: |
-          curl -o gzyx_source.txt https://vip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
+          curl -o gzyx_source.txt http://vip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
           touch gzyx.txt
           cp gzyx_source.txt gzyx.txt
 
       - name: Fetch content from zhy URL
         run: |
-          curl -o zhy_source.txt https://vip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
+          curl -o zhy_source.txt http://vip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
           touch zhy.txt
           cp zhy_source.txt zhy.txt
           
