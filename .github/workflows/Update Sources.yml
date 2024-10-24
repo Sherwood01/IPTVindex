@@ -15,7 +15,7 @@ jobs:
 
       - name: Fetch content from cu URL
         run: |
-          curl -o cu_source.txt http://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
+          curl -o cu_source.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
           touch cu.txt
           cp cu_source.txt cu.txt
 
