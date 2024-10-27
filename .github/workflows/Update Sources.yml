@@ -60,6 +60,12 @@ jobs:
           curl -o movie_source.txt http://vip.taoiptv.cn/source/movie.json?token=3y9t1n0qw0f7byn8
           touch movie.txt
           cp movie_source.txt movie.txt
+
+      - name: Fetch content from index URL
+        run: |
+          curl -o index_source.txt https://github.moeyy.xyz/https://github.com/tansuotv/IPTVindex/blob/main/tv.txt
+          touch index.txt
+          cp index_source.txt index.txt
           
       - name: Update timestamp in update_time.txt
         run: |
@@ -70,6 +76,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt gitv.txt jsyd.txt cqyx.txt gzyx.txt zhy.txt movie.txt update_time.txt
+          git add cu.txt itv.txt gitv.txt jsyd.txt cqyx.txt gzyx.txt zhy.txt movie.txt index.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
