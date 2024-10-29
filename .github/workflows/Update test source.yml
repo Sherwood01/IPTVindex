@@ -1,4 +1,4 @@
-name: Update Test Source
+name: Test Source
 
 # 触发条件：每小时执行一次
 on:
