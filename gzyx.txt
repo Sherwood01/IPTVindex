@@ -66,7 +66,7 @@ BRTV纪实,http://vip.taoiptv.cn/source/gzyx.php?id=cd86f0e450bb6d8d27b199247a29
 
 港澳频道,#genre#
 凤凰资讯,http://vip.taoiptv.cn/source/gzyx.php?id=4ea97af53693ae02392251697dbb52fd.m3u8&sign=998749&token=3y9t1n0qw0f7byn8
-凤凰资讯,http://114.55.117.163:8081/live/fhx.php?id=fhzx.flv&sign=998749&token=3y9t1n0qw0f7byn8
+凤凰资讯,http://114.55.117.163:8091/live/fhx.php?id=fhzx.flv&sign=998749&token=3y9t1n0qw0f7byn8
 凤凰中文,http://vip.taoiptv.cn/source/gzyx.php?id=7eeb6c4285b0fcd7c9a265cf4d5bfac5.m3u8&sign=998749&token=3y9t1n0qw0f7byn8
-凤凰中文,http://114.55.117.163:8081/live/fhx.php?id=fhzw.flv&sign=998749&token=3y9t1n0qw0f7byn8
-凤凰香港,http://114.55.117.163:8081/live/fhx.php?id=fhhk.flv&sign=998749&token=3y9t1n0qw0f7byn8
+凤凰中文,http://114.55.117.163:8091/live/fhx.php?id=fhzw.flv&sign=998749&token=3y9t1n0qw0f7byn8
+凤凰香港,http://114.55.117.163:8091/live/fhx.php?id=fhhk.flv&sign=998749&token=3y9t1n0qw0f7byn8
