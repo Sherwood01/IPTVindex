@@ -5,7 +5,7 @@
       "name": "西西影视",
       "type": 0,
       "api": "http://114.55.117.163:8080/api.php/provide/vod/at/xml/",
-      "playUrl": "https://api.huohua.live/bfq/?key=anbwR2d110y1hYHMav&url=",
+      "playUrl": "https://api.huohua.live/bfq/?key=HtFScMW3YIgfhmOkKi&url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -15,7 +15,7 @@
       "name": "猫咪影视",
       "type": 1,
       "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/?ac=list",
-      "playUrl": "https://api.huohua.live/bfq/?key=anbwR2d110y1hYHMav&url=",
+      "playUrl": "https://api.huohua.live/bfq/?key=HtFScMW3YIgfhmOkKi&url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -33,7 +33,7 @@
     {
       "name": "vipys",
       "type": 0,
-      "url": "https://api.huohua.live/bfq/?key=anbwR2d110y1hYHMav&url=",
+      "url": "https://api.huohua.live/bfq/?key=HtFScMW3YIgfhmOkKi&url=",
       "ext": {
         "flag": [
           "qq",
