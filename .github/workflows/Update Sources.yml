@@ -24,6 +24,12 @@ jobs:
           curl -o itv_source.txt http://svip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8
           touch itv.m3u
           cp itv_source.txt itv.m3u
+
+      - name: Fetch content from itv URL # IPV6
+        run: |
+          curl -o ipv6_source.txt https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
+          touch ipv6.m3u
+          cp ipv6_source.txt ipv6.m3u
           
       - name: Fetch content from gitv URL # 银河TV
         run: |
