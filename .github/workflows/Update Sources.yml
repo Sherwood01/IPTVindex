@@ -49,6 +49,12 @@ jobs:
           touch cqyx.txt
           cp cqyx_source.txt cqyx.txt
 
+      - name: Fetch content from gdlt URL # 广东联通
+        run: |
+          curl -o gdlt_source.txt http://svip.taoiptv.cn/source/gdlt.txt?token=3y9t1n0qw0f7byn8
+          touch gdlt.txt
+          cp gdlt_source.txt gdlt.txt
+
       - name: Fetch content from gzyx URL # 贵州有线
         run: |
           curl -o gzyx_source.txt http://svip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
@@ -88,6 +94,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt gitv.txt jsyd.txt cqyx.txt gzyx.txt zhy.txt ysp.txt movie.txt index.txt ipv6.m3u update_time.txt
+          git add cu.txt itv.txt gitv.txt jsyd.txt cqyx.txt gdlt.txt gzyx.txt zhy.txt ysp.txt movie.txt index.txt ipv6.m3u update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
