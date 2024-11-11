@@ -2,7 +2,7 @@ name: Update Multiple Source
 
 on:
   schedule:
-    - cron: '6 */6 * * *'  # 每小时运行一次
+    - cron: '2 */12 * * *'  # 每小时运行一次
   workflow_dispatch:  # 添加手动触发
 
 jobs:
@@ -30,24 +30,18 @@ jobs:
           curl -o ipv6_source.txt https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
           touch ipv6.m3u
           cp ipv6_source.txt ipv6.m3u
-          
-      - name: Fetch content from gitv URL # 银河TV
-        run: |
-          curl -o gitv_source.txt http://svip.taoiptv.cn/source/gitv.txt?token=3y9t1n0qw0f7byn8
-          touch gitv.txt
-          cp gitv_source.txt gitv.txt
-          
+                  
       - name: Fetch content from jsyd URL # 江苏移动
         run: |
           curl -o jsyd_source.txt http://svip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
           touch jsyd.txt
           cp jsyd_source.txt jsyd.txt
           
-      - name: Fetch content from cqyx URL # 重庆有线
+      - name: Fetch content from migu URL # 咪咕视频
         run: |
-          curl -o cqyx_source.txt http://svip.taoiptv.cn/source/cqyx.txt?token=3y9t1n0qw0f7byn8
-          touch cqyx.txt
-          cp cqyx_source.txt cqyx.txt
+          curl -o migu_source.txt http://svip.taoiptv.cn/source/migu.txt?token=3y9t1n0qw0f7byn8
+          touch migu.txt
+          cp migu_source.txt migu.txt
 
       - name: Fetch content from gdlt URL # 广东联通
         run: |
@@ -55,29 +49,11 @@ jobs:
           touch gdlt.txt
           cp gdlt_source.txt gdlt.txt
 
-      - name: Fetch content from gzyx URL # 贵州有线
-        run: |
-          curl -o gzyx_source.txt http://svip.taoiptv.cn/source/gzyx.txt?token=3y9t1n0qw0f7byn8
-          touch gzyx.txt
-          cp gzyx_source.txt gzyx.txt
-
       - name: Fetch content from zhy URL # 酒店综合源
         run: |
           curl -o zhy_source.txt http://svip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
           touch zhy.txt
           cp zhy_source.txt zhy.txt
-
-      - name: Fetch content from ysp URL # 央视频
-        run: |
-          curl -o ysp_source.txt http://svip.taoiptv.cn/source/ysp.txt?token=3y9t1n0qw0f7byn8
-          touch ysp.txt
-          cp ysp_source.txt ysp.txt
-          
-      - name: Fetch content from movie URL # 影视点播
-        run: |
-          curl -o movie_source.txt http://svip.taoiptv.cn/source/movie.json?token=3y9t1n0qw0f7byn8
-          touch movie.txt
-          cp movie_source.txt movie.txt
 
       - name: Fetch content from index URL # IPTV index
         run: |
@@ -94,6 +70,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt gitv.txt jsyd.txt cqyx.txt gdlt.txt gzyx.txt zhy.txt ysp.txt movie.txt index.txt ipv6.m3u update_time.txt
+          git add cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.m3u update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
