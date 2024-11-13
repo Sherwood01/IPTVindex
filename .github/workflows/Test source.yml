@@ -6,25 +6,27 @@ on:
 
 jobs:
   update-content:
-    runs-on: ubuntu-latest  # 在 Ubuntu 最新版本上运行
+    runs-on: ubuntu-latest
 
     steps:
-      # 步骤1：拉取仓库代码
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # 步骤2：抓取网页内容并写入文件
-      - name: Fetch webpage content
+      - name: Fetch content from test URL # 测试源
         run: |
-          curl -o webpage_content.txt https://taoiptv.com/subs/51025.txt?token=839f31c3a98925e9  # 替换为你要抓取的网页
-          echo "Downloaded webpage content"
+          curl -o test_source.txt https://fanmingming.com/txt?url=https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+          touch test.txt
+          cp test_source.txt test.txt
           
-      # 步骤3：将网页内容写入指定文件
-      - name: Update file with webpage content
+      - name: Update timestamp in test_time.txt # 测试时间
         run: |
-          cp webpage_content.txt test.txt  # 将抓取的内容复制到目标文件
+          current_time=$(date "+%Y-%m-%d %H:%M:%S")
+          echo "Last update: $current_time" > test_time.txt  # 写入最新时间到文件
+          
+      - name: Commit and push changes
+        run: |
           git config --global user.email "137753051@qq.com"
-          git config --global user.name "Sherwood"
-          git add test.txt
-          git commit -m "Auto update file with webpage content"
+          git config --global user.name "Sherwood1"
+          git add test.txt test_time.txt
+          git commit -m "Auto update multiple files with webpage contents"
           git push
