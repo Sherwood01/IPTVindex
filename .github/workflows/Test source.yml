@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch content from test URL # 测试源
         run: |
-          curl -o test_source.txt https://fanmingming.com/txt?url=https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+          curl -o test_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
           touch test.txt
           cp test_source.txt test.txt
           
