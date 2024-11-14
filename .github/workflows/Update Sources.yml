@@ -25,11 +25,11 @@ jobs:
           touch itv.txt
           cp itv_source.txt itv.txt
 
-      - name: Fetch content from itv URL # IPV6
+      - name: Fetch content from ipv6 URL # IPV6
         run: |
-          curl -o ipv6_source.txt https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
-          touch ipv6.m3u
-          cp ipv6_source.txt ipv6.m3u
+          curl -o ipv6_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
+          touch ipv6.txt
+          cp ipv6_source.txt ipv6.txt
                   
       - name: Fetch content from jsyd URL # 江苏移动
         run: |
@@ -70,6 +70,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.m3u update_time.txt
+          git add cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
