@@ -21,7 +21,7 @@ jobs:
 
       - name: Fetch content from itv URL # iTV
         run: |
-          curl -o itv_source.txt http://svip.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8
+          curl -o itv_source.txt http://v.taoiptv.cn/source/itv.txt?token=3y9t1n0qw0f7byn8
           touch itv.txt
           cp itv_source.txt itv.txt
 
@@ -33,25 +33,25 @@ jobs:
                   
       - name: Fetch content from jsyd URL # 江苏移动
         run: |
-          curl -o jsyd_source.txt http://svip.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
+          curl -o jsyd_source.txt http://v.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
           touch jsyd.txt
           cp jsyd_source.txt jsyd.txt
           
       - name: Fetch content from migu URL # 咪咕视频
         run: |
-          curl -o migu_source.txt http://svip.taoiptv.cn/source/migu.txt?token=3y9t1n0qw0f7byn8
+          curl -o migu_source.txt http://v.taoiptv.cn/source/migu.txt?token=3y9t1n0qw0f7byn8
           touch migu.txt
           cp migu_source.txt migu.txt
 
       - name: Fetch content from gdlt URL # 广东联通
         run: |
-          curl -o gdlt_source.txt http://svip.taoiptv.cn/source/gdlt.txt?token=3y9t1n0qw0f7byn8
+          curl -o gdlt_source.txt http://v.taoiptv.cn/source/gdlt.txt?token=3y9t1n0qw0f7byn8
           touch gdlt.txt
           cp gdlt_source.txt gdlt.txt
 
       - name: Fetch content from zhy URL # 酒店综合源
         run: |
-          curl -o zhy_source.txt http://svip.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
+          curl -o zhy_source.txt http://v.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
           touch zhy.txt
           cp zhy_source.txt zhy.txt
 
