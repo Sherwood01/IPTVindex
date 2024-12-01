@@ -12,11 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Fetch content from test URL # 测试源
+      - name: Fetch content from cucast URL # 北京联通组播
         run: |
-          curl -o test_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
-          touch test.txt
-          cp test_source.txt test.txt
+          curl -o cucast_source.txt https://m3u.ibert.me/txt/q_bj_iptv_unicom_m.txt
+          touch cucast.txt
+          cp cucast_source.txt cucast.txt
           
       - name: Update timestamp in test_time.txt # 测试时间
         run: |
@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add test.txt test_time.txt
+          git add cucast.txt test_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
