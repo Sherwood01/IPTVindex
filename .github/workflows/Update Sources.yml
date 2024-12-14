@@ -13,12 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         
-      - name: Fetch content from cucast URL # 北京联通组播
-        run: |
-          curl -o cucast_source.txt https://m3u.ibert.me/txt/q_bj_iptv_unicom_m.txt
-          touch cucast.txt
-          cp cucast_source.txt cucast.txt
-
       - name: Fetch content from cu URL # 北京联通
         run: |
           curl -o cu_source.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
@@ -76,6 +70,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cucast.txt cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.txt update_time.txt
+          git add cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
