@@ -30,24 +30,12 @@ jobs:
           curl -o ipv6_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
           touch ipv6.txt
           cp ipv6_source.txt ipv6.txt
-                  
-      - name: Fetch content from jsyd URL # 江苏移动
-        run: |
-          curl -o jsyd_source.txt http://v.taoiptv.cn/source/jsyd.txt?token=3y9t1n0qw0f7byn8
-          touch jsyd.txt
-          cp jsyd_source.txt jsyd.txt
-          
-      - name: Fetch content from migu URL # 咪咕视频
-        run: |
-          curl -o migu_source.txt http://v.taoiptv.cn/source/migu.txt?token=3y9t1n0qw0f7byn8
-          touch migu.txt
-          cp migu_source.txt migu.txt
 
-      - name: Fetch content from gdlt URL # 广东联通
+      - name: Fetch content from gdlt URL # 原始综合源
         run: |
-          curl -o gdlt_source.txt http://v.taoiptv.cn/source/gdlt.txt?token=3y9t1n0qw0f7byn8
-          touch gdlt.txt
-          cp gdlt_source.txt gdlt.txt
+          curl -o yszhy_source.txt http://v.taoiptv.cn/source/mine.txt?token=3y9t1n0qw0f7byn8
+          touch yszhy.txt
+          cp yszhy_source.txt yszhy.txt
 
       - name: Fetch content from zhy URL # 酒店综合源
         run: |
@@ -70,6 +58,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt itv.txt jsyd.txt migu.txt gdlt.txt zhy.txt index.txt ipv6.txt update_time.txt
+          git add cu.txt itv.txt ipv6.txt yszhy.txt zhy.txt index.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
