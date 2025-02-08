@@ -38,9 +38,6 @@ CCTV15,http://114.55.117.163:8091/live/iptv3.php?id=100195&sign=1aef05&token=3y9
 CCTV17,http://114.55.117.163:8091/live/iptv1.php?id=100205&sign=1aef05&token=3y9t1n0qw0f7byn8
 CCTV17,http://114.55.117.163:8091/live/iptv2.php?id=100205&sign=1aef05&token=3y9t1n0qw0f7byn8
 CCTV17,http://114.55.117.163:8091/live/iptv3.php?id=100205&sign=1aef05&token=3y9t1n0qw0f7byn8
-CCTV风云足球,http://114.55.117.163:8091/live/iptv1.php?id=100240&sign=1aef05&token=3y9t1n0qw0f7byn8
-CCTV风云足球,http://114.55.117.163:8091/live/iptv2.php?id=100240&sign=1aef05&token=3y9t1n0qw0f7byn8
-CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=1aef05&token=3y9t1n0qw0f7byn8
 卫视频道,#genre#
 湖南卫视,http://114.55.117.163:8091/live/iptv1.php?id=101100&sign=1aef05&token=3y9t1n0qw0f7byn8
 湖南卫视,http://114.55.117.163:8091/live/iptv2.php?id=101100&sign=1aef05&token=3y9t1n0qw0f7byn8
@@ -98,15 +95,6 @@ CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=1aef05
 四川卫视,http://114.55.117.163:8091/live/iptv3.php?id=101235&sign=1aef05&token=3y9t1n0qw0f7byn8
 数字频道,#genre#
 电影频道,#genre#
-家庭影院,http://114.55.117.163:8091/live/iptv1.php?id=103100&sign=1aef05&token=3y9t1n0qw0f7byn8
-家庭影院,http://114.55.117.163:8091/live/iptv2.php?id=103100&sign=1aef05&token=3y9t1n0qw0f7byn8
-家庭影院,http://114.55.117.163:8091/live/iptv3.php?id=103100&sign=1aef05&token=3y9t1n0qw0f7byn8
-动作电影,http://114.55.117.163:8091/live/iptv1.php?id=103105&sign=1aef05&token=3y9t1n0qw0f7byn8
-动作电影,http://114.55.117.163:8091/live/iptv2.php?id=103105&sign=1aef05&token=3y9t1n0qw0f7byn8
-动作电影,http://114.55.117.163:8091/live/iptv3.php?id=103105&sign=1aef05&token=3y9t1n0qw0f7byn8
-影迷电影,http://114.55.117.163:8091/live/iptv1.php?id=103110&sign=1aef05&token=3y9t1n0qw0f7byn8
-影迷电影,http://114.55.117.163:8091/live/iptv2.php?id=103110&sign=1aef05&token=3y9t1n0qw0f7byn8
-影迷电影,http://114.55.117.163:8091/live/iptv3.php?id=103110&sign=1aef05&token=3y9t1n0qw0f7byn8
 教育频道,#genre#
 港澳频道,#genre#
 怀旧频道,#genre#
@@ -130,4 +118,4 @@ CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=1aef05
 吉林教育,http://114.55.117.163:8091/live/iptv2.php?id=170180&sign=1aef05&token=3y9t1n0qw0f7byn8
 吉林教育,http://114.55.117.163:8091/live/iptv3.php?id=170180&sign=1aef05&token=3y9t1n0qw0f7byn8
 更新时间,#genre#
-2025-02-08 03:00:27,https://taoiptv.com/time.mp4
+2025-02-08 14:00:27,https://taoiptv.com/time.mp4
