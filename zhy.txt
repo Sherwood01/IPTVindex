@@ -130,4 +130,4 @@ CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=73adff
 吉林教育,http://114.55.117.163:8091/live/iptv2.php?id=170180&sign=73adff&token=3y9t1n0qw0f7byn8
 吉林教育,http://114.55.117.163:8091/live/iptv3.php?id=170180&sign=73adff&token=3y9t1n0qw0f7byn8
 更新时间,#genre#
-2025-02-09 03:00:27,https://taoiptv.com/time.mp4
+2025-02-09 14:31:08,https://taoiptv.com/time.mp4
