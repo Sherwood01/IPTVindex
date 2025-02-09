@@ -57,4 +57,4 @@ CCTV风云足球,http://58.19.38.162:9901/tsfile/live/1003_1.m3u8?key=txiptv
 东北地区,#genre#
 吉林教育,http://222.169.85.8:9901/tsfile/live/1000_1.m3u8?key=txiptv
 更新时间,#genre#
-2025-02-08 03:00:27,https://taoiptv.com/time.mp4
+2025-02-09 03:00:27,https://taoiptv.com/time.mp4
