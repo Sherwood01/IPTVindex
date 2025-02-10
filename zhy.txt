@@ -114,6 +114,15 @@ CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=e7804b
 华北地区,#genre#
 华中地区,#genre#
 华南地区,#genre#
+广西新闻,http://114.55.117.163:8091/live/iptv1.php?id=140435&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西新闻,http://114.55.117.163:8091/live/iptv2.php?id=140435&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西新闻,http://114.55.117.163:8091/live/iptv3.php?id=140435&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西都市,http://114.55.117.163:8091/live/iptv1.php?id=140445&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西都市,http://114.55.117.163:8091/live/iptv2.php?id=140445&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西都市,http://114.55.117.163:8091/live/iptv3.php?id=140445&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西影视,http://114.55.117.163:8091/live/iptv1.php?id=140455&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西影视,http://114.55.117.163:8091/live/iptv2.php?id=140455&sign=e7804b&token=3y9t1n0qw0f7byn8
+广西影视,http://114.55.117.163:8091/live/iptv3.php?id=140455&sign=e7804b&token=3y9t1n0qw0f7byn8
 西南地区,#genre#
 西北地区,#genre#
 东北地区,#genre#
@@ -121,4 +130,4 @@ CCTV风云足球,http://114.55.117.163:8091/live/iptv3.php?id=100240&sign=e7804b
 吉林教育,http://114.55.117.163:8091/live/iptv2.php?id=170180&sign=e7804b&token=3y9t1n0qw0f7byn8
 吉林教育,http://114.55.117.163:8091/live/iptv3.php?id=170180&sign=e7804b&token=3y9t1n0qw0f7byn8
 更新时间,#genre#
-2025-02-10 03:00:28,https://taoiptv.com/time.mp4
+2025-02-10 14:00:28,https://taoiptv.com/time.mp4
