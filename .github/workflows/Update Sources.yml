@@ -12,30 +12,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        
-      - name: Fetch content from cu URL # 北京联通
-        run: |
-          curl -o cu_source.txt https://taoiptv.com/subs/11024.txt?token=3y9t1n0qw0f7byn8
-          touch cu.txt
-          cp cu_source.txt cu.txt
 
       - name: Fetch content from ipv6 URL # IPV6
         run: |
           curl -o ipv6_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
           touch ipv6.txt
           cp ipv6_source.txt ipv6.txt
-
-      - name: Fetch content from gdlt URL # 原始综合源
-        run: |
-          curl -o yszhy_source.txt http://v.taoiptv.cn/source/mine.txt?token=3y9t1n0qw0f7byn8
-          touch yszhy.txt
-          cp yszhy_source.txt yszhy.txt
-
-      - name: Fetch content from zhy URL # 酒店综合源
-        run: |
-          curl -o zhy_source.txt http://v.taoiptv.cn/source/iptv.txt?token=3y9t1n0qw0f7byn8
-          touch zhy.txt
-          cp zhy_source.txt zhy.txt
 
       - name: Fetch content from index URL # IPTV index
         run: |
@@ -52,6 +34,6 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add cu.txt ipv6.txt yszhy.txt zhy.txt index.txt update_time.txt
+          git add ipv6.txt index.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
