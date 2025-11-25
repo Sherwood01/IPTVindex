@@ -18,12 +18,6 @@ jobs:
           curl -o ipv6_source.txt https://mtt.xwqin.com/api/m3u-txt.php?url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
           touch ipv6.txt
           cp ipv6_source.txt ipv6.txt
-
-      - name: Fetch content from index URL # IPTV index
-        run: |
-          curl -o index_source.txt https://github.moeyy.xyz/https://github.com/tansuotv/IPTVindex/blob/main/tv.txt
-          touch index.txt
-          cp index_source.txt index.txt
           
       - name: Update timestamp in update_time.txt # 更新时间
         run: |
@@ -34,6 +28,7 @@ jobs:
         run: |
           git config --global user.email "137753051@qq.com"
           git config --global user.name "Sherwood1"
-          git add ipv6.txt index.txt update_time.txt
+          git add ipv6.txt update_time.txt
           git commit -m "Auto update multiple files with webpage contents"
           git push
+
